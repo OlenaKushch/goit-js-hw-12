@@ -103,7 +103,7 @@ ul {
   padding: 8px 16px;
   width: 91px;
   height: 40px;
-  background-color: #d95a2b;
+  background-color: #4e75ff;
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -114,7 +114,7 @@ ul {
 }
 .sub-btn:hover,
 .sub-btn:focus {
-  background-color: #bf3617;
+  background-color: #6c8cff;
 }
 
 .form {
@@ -161,4 +161,38 @@ ul {
     transform: rotate(360deg);
     border-top-color: #db3434;
   }
+}
+.btn-load-more {
+  display: block;
+  border: none;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 52px;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 0;
+  width: 125px;
+  height: 40px;
+  background-color: #4e75ff;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-load-more:hover,
+.btn-load-more:focus {
+  background-color: #6c8cff;
+}
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
 }

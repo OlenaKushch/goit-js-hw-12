@@ -12,9 +12,10 @@ import axios from 'axios';
         },
     }); */
 export async function getImagesByQuery(userValue, currentPage) {
-    const baseUrl = 'https://pixabay.com/';
+   /*  const baseUrl = 'https://pixabay.com/';
     const endPoint = '/api';
-    const url = baseUrl + endPoint;
+    const url = baseUrl + endPoint; */
+    const url = 'https://pixabay.com/api/'
 
 
     const params = {

@@ -89,9 +89,9 @@ loadMoreBtn.addEventListener('click', async () => {
         createGallery(data.hits);
         toggleLoadMoreBtn(currentPage, data.totalHits);
 
-        const galleryItems = document.querySelector('.gallery-item');
+        const galleryItems = document.querySelectorAll('.gallery-item');
         if (galleryItems.length > 0) {
-            constcardHeight = galleryItems[0].getBoundingClientRect().height;
+            const cardHeight = galleryItems[0].getBoundingClientRect().height;
             window.scrollBy({
                 top: cardHeight * 2,
                 behavior: 'smooth'
